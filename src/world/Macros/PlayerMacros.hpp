@@ -77,15 +77,15 @@ This file is released under the MIT license. See README-MIT for more information
 //////////////////////////////////////////////////////////////////////////////////////////
 
 #if VERSION_STRING == Classic
-    #define DBC_PLAYER_LEVEL_CAP 60
+    #define DBC_PLAYER_LEVEL_CAP 355
 #elif VERSION_STRING == TBC
-    #define DBC_PLAYER_LEVEL_CAP 70
+    #define DBC_PLAYER_LEVEL_CAP 355
 #elif VERSION_STRING == WotLK
-    #define DBC_PLAYER_LEVEL_CAP 80
+    #define DBC_PLAYER_LEVEL_CAP 355
 #elif VERSION_STRING == Cata
-    #define DBC_PLAYER_LEVEL_CAP 85
+    #define DBC_PLAYER_LEVEL_CAP 355
 #elif VERSION_STRING == Mop
-    #define DBC_PLAYER_LEVEL_CAP 90
+    #define DBC_PLAYER_LEVEL_CAP 355
 #endif
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -121,15 +121,15 @@ This file is released under the MIT license. See README-MIT for more information
 //////////////////////////////////////////////////////////////////////////////////////////
 
 #if VERSION_STRING == Classic
-    #define DBC_PLAYER_SKILL_MAX 300
+    #define DBC_PLAYER_SKILL_MAX 2000
 #elif VERSION_STRING == TBC
-    #define DBC_PLAYER_SKILL_MAX 375
+    #define DBC_PLAYER_SKILL_MAX 2000
 #elif VERSION_STRING == WotLK
-    #define DBC_PLAYER_SKILL_MAX 450
+    #define DBC_PLAYER_SKILL_MAX 2000
 #elif VERSION_STRING == Cata
-    #define DBC_PLAYER_SKILL_MAX 525
+    #define DBC_PLAYER_SKILL_MAX 2000
 #elif VERSION_STRING == Mop
-    #define DBC_PLAYER_SKILL_MAX 600
+    #define DBC_PLAYER_SKILL_MAX 2000
 #endif
 
 //////////////////////////////////////////////////////////////////////////////////////////
